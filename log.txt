@@ -1,0 +1,473 @@
+Received data: {"event_date":"2023-12-09","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-09
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE ('2023-12-09' BETWEEN startTime AND endTime)
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Received data: {"event_date":"2023-12-09","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-09
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE ('2023-12-09' BETWEEN startTime AND endTime)
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Received data: {"event_date":"2023-12-09","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-09
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE ('2023-12-09' BETWEEN startTime AND endTime)
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Received data: {"event_date":"2023-12-09","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-09
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE ('2023-12-09' BETWEEN startTime AND endTime)
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Received data: {"event_date":"2023-12-21","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-21
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-21' BETWEEN start_time AND end_time) OR ('2023-12-21' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: [{"id":"9","event_name":"HolaMic","start_time":"2023-12-20 03:35:00","end_time":"2023-12-23 03:35:00","event_location":"njnnxsjnxjsx","event_city":"Ahmedabad","event_desc":"swshwhsuwhs","category":"Music","banner_image":"recommendations.png"}]
+Received data: {"event_date":"2023-12-22","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-22
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-22' BETWEEN start_time AND end_time) OR ('2023-12-22' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: [{"id":"9","event_name":"HolaMic","start_time":"2023-12-20 03:35:00","end_time":"2023-12-23 03:35:00","event_location":"njnnxsjnxjsx","event_city":"Ahmedabad","event_desc":"swshwhsuwhs","category":"Music","banner_image":"recommendations.png"}]
+Received data: {"event_date":"2023-12-23","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-23
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-23' BETWEEN start_time AND end_time) OR ('2023-12-23' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: [{"id":"9","event_name":"HolaMic","start_time":"2023-12-20 03:35:00","end_time":"2023-12-23 03:35:00","event_location":"njnnxsjnxjsx","event_city":"Ahmedabad","event_desc":"swshwhsuwhs","category":"Music","banner_image":"recommendations.png"}]
+Received data: {"event_date":"2023-12-20","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-20
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-20' BETWEEN start_time AND end_time) OR ('2023-12-20' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: [{"id":"9","event_name":"HolaMic","start_time":"2023-12-20 03:35:00","end_time":"2023-12-23 03:35:00","event_location":"njnnxsjnxjsx","event_city":"Ahmedabad","event_desc":"swshwhsuwhs","category":"Music","banner_image":"recommendations.png"}]
+Received data: {"event_date":"2023-12-21","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-21
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-21' BETWEEN start_time AND end_time) OR ('2023-12-21' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: [{"id":"9","event_name":"HolaMic","start_time":"2023-12-20 03:35:00","end_time":"2023-12-23 03:35:00","event_location":"njnnxsjnxjsx","event_city":"Ahmedabad","event_desc":"swshwhsuwhs","category":"Music","banner_image":"recommendations.png"}]
+Received data: {"event_date":"2023-12-19","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-19
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-19' BETWEEN start_time AND end_time) OR ('2023-12-19' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: []
+Received data: {"event_date":"2023-12-09","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-09
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-09' BETWEEN start_time AND end_time) OR ('2023-12-09' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: []
+Received data: {"event_date":"2023-12-06","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-06
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-06' BETWEEN start_time AND end_time) OR ('2023-12-06' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: []
+Received data: {"event_date":"2023-12-09","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-09
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-09' BETWEEN start_time AND end_time) OR ('2023-12-09' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: []
+Received data: {"event_date":"2023-12-09","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-09
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-09' BETWEEN start_time AND end_time) OR ('2023-12-09' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: []
+Received data: {"event_date":"2023-12-22","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-22
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-22' BETWEEN start_time AND end_time) OR ('2023-12-22' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: [{"id":"9","event_name":"HolaMic","start_time":"2023-12-20 03:35:00","end_time":"2023-12-23 03:35:00","event_location":"njnnxsjnxjsx","event_city":"Ahmedabad","event_desc":"swshwhsuwhs","category":"Music","banner_image":"recommendations.png"}]
+Received data: {"event_date":"2023-12-21","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-21
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-21' BETWEEN start_time AND end_time) OR ('2023-12-21' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: [{"id":"9","event_name":"HolaMic","start_time":"2023-12-20 03:35:00","end_time":"2023-12-23 03:35:00","event_location":"njnnxsjnxjsx","event_city":"Ahmedabad","event_desc":"swshwhsuwhs","category":"Music","banner_image":"recommendations.png"}]
+Received data: {"event_date":"2023-12-21","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-21
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-21' BETWEEN start_time AND end_time) OR ('2023-12-21' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: [{"id":"9","event_name":"HolaMic","start_time":"2023-12-20 03:35:00","end_time":"2023-12-23 03:35:00","event_location":"njnnxsjnxjsx","event_city":"Ahmedabad","event_desc":"swshwhsuwhs","category":"Music","banner_image":"recommendations.png"}]
+Received data: {"event_date":"2023-12-09","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-09
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-09' BETWEEN start_time AND end_time) OR ('2023-12-09' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: []
+Received data: {"event_date":"2023-12-09","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-09
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-09' BETWEEN start_time AND end_time) OR ('2023-12-09' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: []
+Received data: {"event_date":"2023-12-21","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-21
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-21' BETWEEN start_time AND end_time) OR ('2023-12-21' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: [{"id":"9","event_name":"HolaMic","start_time":"2023-12-20 03:35:00","end_time":"2023-12-23 03:35:00","event_location":"njnnxsjnxjsx","event_city":"Ahmedabad","event_desc":"swshwhsuwhs","category":"Music","banner_image":"recommendations.png"}]
+Received data: {"event_date":"2023-12-21","city":"Bangalore","event_category":"Music"}
+Event date: 2023-12-21
+Event city: Bangalore
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-21' BETWEEN start_time AND end_time) OR ('2023-12-21' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Bangalore'
+Fetched events: []
+Received data: {"event_date":"2023-12-21","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-21
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-21' BETWEEN start_time AND end_time) OR ('2023-12-21' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: [{"id":"9","event_name":"HolaMic","start_time":"2023-12-20 03:35:00","end_time":"2023-12-23 03:35:00","event_location":"njnnxsjnxjsx","event_city":"Ahmedabad","event_desc":"swshwhsuwhs","category":"Music","banner_image":"recommendations.png"}]
+Received data: {"event_date":"2023-12-21","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-21
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-21' BETWEEN start_time AND end_time) OR ('2023-12-21' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: [{"id":"9","event_name":"HolaMic","start_time":"2023-12-20 03:35:00","end_time":"2023-12-23 03:35:00","event_location":"njnnxsjnxjsx","event_city":"Ahmedabad","event_desc":"swshwhsuwhs","category":"Music","banner_image":"recommendations.png"}]
+Received data: {"event_date":"2023-12-09","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-09
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-09' BETWEEN start_time AND end_time) OR ('2023-12-09' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: []
+Received data: {"event_date":"2023-12-09","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-09
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-09' BETWEEN start_time AND end_time) OR ('2023-12-09' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: []
+Received data: {"event_date":"2023-12-20","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-20
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-20' BETWEEN start_time AND end_time) OR ('2023-12-20' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: [{"id":"9","event_name":"HolaMic","start_time":"2023-12-20 03:35:00","end_time":"2023-12-23 03:35:00","event_location":"njnnxsjnxjsx","event_city":"Ahmedabad","event_desc":"swshwhsuwhs","category":"Music","banner_image":"recommendations.png"}]
+Received data: {"event_date":"2023-12-21","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-21
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-21' BETWEEN start_time AND end_time) OR ('2023-12-21' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: [{"id":"9","event_name":"HolaMic","start_time":"2023-12-20 03:35:00","end_time":"2023-12-23 03:35:00","event_location":"njnnxsjnxjsx","event_city":"Ahmedabad","event_desc":"swshwhsuwhs","category":"Music","banner_image":"recommendations.png"}]
+Received data: {"event_date":"2023-12-20","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-20
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-20' BETWEEN start_time AND end_time) OR ('2023-12-20' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: [{"id":"9","event_name":"HolaMic","start_time":"2023-12-20 03:35:00","end_time":"2023-12-23 03:35:00","event_location":"njnnxsjnxjsx","event_city":"Ahmedabad","event_desc":"swshwhsuwhs","category":"Music","banner_image":"recommendations.png"}]
+Received data: {"event_date":"2023-12-21","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-21
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-21' BETWEEN start_time AND end_time) OR ('2023-12-21' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: [{"id":"9","event_name":"HolaMic","start_time":"2023-12-20 03:35:00","end_time":"2023-12-23 03:35:00","event_location":"njnnxsjnxjsx","event_city":"Ahmedabad","event_desc":"swshwhsuwhs","category":"Music","banner_image":"recommendations.png"}]
+Received data: {"event_date":"2023-12-21","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-21
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-21' BETWEEN start_time AND end_time) OR ('2023-12-21' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: [{"id":"9","event_name":"HolaMic","start_time":"2023-12-20 03:35:00","end_time":"2023-12-23 03:35:00","event_location":"njnnxsjnxjsx","event_city":"Ahmedabad","event_desc":"swshwhsuwhs","category":"Music","banner_image":"recommendations.png"}]
+Received data: {"event_date":"2023-12-09","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-09
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-09' BETWEEN start_time AND end_time) OR ('2023-12-09' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: []
+Received data: {"event_date":"2023-12-09","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-09
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-09' BETWEEN start_time AND end_time) OR ('2023-12-09' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: []
+Received data: {"event_date":"2023-12-20","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-20
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-20' BETWEEN start_time AND end_time) OR ('2023-12-20' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: [{"id":"9","event_name":"HolaMic","start_time":"2023-12-20 03:35:00","end_time":"2023-12-23 03:35:00","event_location":"njnnxsjnxjsx","event_city":"Ahmedabad","event_desc":"swshwhsuwhs","category":"Music","banner_image":"recommendations.png"}]
+Received data: {"event_date":"2023-12-21","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-21
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-21' BETWEEN start_time AND end_time) OR ('2023-12-21' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: [{"id":"9","event_name":"HolaMic","start_time":"2023-12-20 03:35:00","end_time":"2023-12-23 03:35:00","event_location":"njnnxsjnxjsx","event_city":"Ahmedabad","event_desc":"swshwhsuwhs","category":"Music","banner_image":"recommendations.png"}]
+Received data: {"event_date":"2023-12-22","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-22
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-22' BETWEEN start_time AND end_time) OR ('2023-12-22' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: [{"id":"9","event_name":"HolaMic","start_time":"2023-12-20 03:35:00","end_time":"2023-12-23 03:35:00","event_location":"njnnxsjnxjsx","event_city":"Ahmedabad","event_desc":"swshwhsuwhs","category":"Music","banner_image":"recommendations.png"}]
+Received data: {"event_date":"2023-12-22","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-22
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-22' BETWEEN start_time AND end_time) OR ('2023-12-22' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: [{"id":"9","event_name":"HolaMic","start_time":"2023-12-20 03:35:00","end_time":"2023-12-23 03:35:00","event_location":"njnnxsjnxjsx","event_city":"Ahmedabad","event_desc":"swshwhsuwhs","category":"Music","banner_image":"recommendations.png"}]
+Received data: {"event_date":"2023-12-09","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-09
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-09' BETWEEN start_time AND end_time) OR ('2023-12-09' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: []
+Received data: {"event_date":"2023-12-09","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-09
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-09' BETWEEN start_time AND end_time) OR ('2023-12-09' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: []
+Received data: {"event_date":"2023-12-20","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-20
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-20' BETWEEN start_time AND end_time) OR ('2023-12-20' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: [{"id":"9","event_name":"HolaMic","start_time":"2023-12-20 03:35:00","end_time":"2023-12-23 03:35:00","event_location":"njnnxsjnxjsx","event_city":"Ahmedabad","event_desc":"swshwhsuwhs","category":"Music","banner_image":"recommendations.png"}]
+Received data: {"event_date":"2023-12-24","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-24
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-24' BETWEEN start_time AND end_time) OR ('2023-12-24' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: []
+Received data: {"event_date":"2023-12-19","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-19
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-19' BETWEEN start_time AND end_time) OR ('2023-12-19' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: []
+Received data: {"event_date":"2023-12-20","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-20
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-20' BETWEEN start_time AND end_time) OR ('2023-12-20' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: [{"id":"9","event_name":"HolaMic","start_time":"2023-12-20 03:35:00","end_time":"2023-12-23 03:35:00","event_location":"njnnxsjnxjsx","event_city":"Ahmedabad","event_desc":"swshwhsuwhs","category":"Music","banner_image":"recommendations.png"}]
+Received data: {"event_date":"2023-12-20","city":"Bangalore","event_category":"Music"}
+Event date: 2023-12-20
+Event city: Bangalore
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-20' BETWEEN start_time AND end_time) OR ('2023-12-20' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Bangalore'
+Fetched events: []
+Received data: {"event_date":"2023-12-20","city":"Mumbai","event_category":"Music"}
+Event date: 2023-12-20
+Event city: Mumbai
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-20' BETWEEN start_time AND end_time) OR ('2023-12-20' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Mumbai'
+Fetched events: []
+Received data: {"event_date":"2023-12-20","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-20
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-20' BETWEEN start_time AND end_time) OR ('2023-12-20' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: [{"id":"9","event_name":"HolaMic","start_time":"2023-12-20 03:35:00","end_time":"2023-12-23 03:35:00","event_location":"njnnxsjnxjsx","event_city":"Ahmedabad","event_desc":"swshwhsuwhs","category":"Music","banner_image":"recommendations.png"}]
+Received data: {"event_date":"2023-12-20","city":"Ahmedabad","event_category":"Business"}
+Event date: 2023-12-20
+Event city: Ahmedabad
+Event category: Business
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-20' BETWEEN start_time AND end_time) OR ('2023-12-20' = date(start_time)))
+        AND category = 'Business'
+        AND event_city = 'Ahmedabad'
+Fetched events: []
+Received data: {"event_date":"2023-12-20","city":"Ahmedabad","event_category":"Exhibition"}
+Event date: 2023-12-20
+Event city: Ahmedabad
+Event category: Exhibition
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-20' BETWEEN start_time AND end_time) OR ('2023-12-20' = date(start_time)))
+        AND category = 'Exhibition'
+        AND event_city = 'Ahmedabad'
+Fetched events: []
+Received data: {"event_date":"2023-12-20","city":"Ahmedabad","event_category":"Exhibition"}
+Event date: 2023-12-20
+Event city: Ahmedabad
+Event category: Exhibition
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-20' BETWEEN start_time AND end_time) OR ('2023-12-20' = date(start_time)))
+        AND category = 'Exhibition'
+        AND event_city = 'Ahmedabad'
+Fetched events: []
+Received data: {"event_date":"2023-12-20","city":"Ahmedabad","event_category":"Exhibition"}
+Event date: 2023-12-20
+Event city: Ahmedabad
+Event category: Exhibition
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-20' BETWEEN start_time AND end_time) OR ('2023-12-20' = date(start_time)))
+        AND category = 'Exhibition'
+        AND event_city = 'Ahmedabad'
+Fetched events: []
+Received data: {"event_date":"2023-12-09","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-09
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-09' BETWEEN start_time AND end_time) OR ('2023-12-09' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: []
+Received data: {"event_date":"2023-12-09","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-09
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-09' BETWEEN start_time AND end_time) OR ('2023-12-09' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: []
+Received data: {"event_date":"2023-12-20","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-20
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-20' BETWEEN start_time AND end_time) OR ('2023-12-20' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: [{"id":"9","event_name":"HolaMic","start_time":"2023-12-20 03:35:00","end_time":"2023-12-23 03:35:00","event_location":"njnnxsjnxjsx","event_city":"Ahmedabad","event_desc":"swshwhsuwhs","category":"Music","banner_image":"recommendations.png"}]
+Received data: {"event_date":"2023-12-20","city":"Ahmedabad","event_category":"Music"}
+Event date: 2023-12-20
+Event city: Ahmedabad
+Event category: Music
+SQL query: SELECT * FROM event_table 
+        WHERE (('2023-12-20' BETWEEN start_time AND end_time) OR ('2023-12-20' = date(start_time)))
+        AND category = 'Music'
+        AND event_city = 'Ahmedabad'
+Fetched events: [{"id":"9","event_name":"HolaMic","start_time":"2023-12-20 03:35:00","end_time":"2023-12-23 03:35:00","event_location":"njnnxsjnxjsx","event_city":"Ahmedabad","event_desc":"swshwhsuwhs","category":"Music","banner_image":"recommendations.png"}]
